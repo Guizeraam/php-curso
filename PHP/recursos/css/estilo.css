@@ -1,0 +1,140 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 120px 1fr 60px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "cabecalho"
+        "principal "
+        "rodape";
+}
+
+
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: #02732A;
+    color: #ffff;
+    display: flex; /*É uma propriedade do CSS que transforma um elemento container em um flex container — ou seja, um container flexível que controla melhor a posição e o alinhamento dos seus filhos (os elementos dentro dele).*/
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    z-index: 1;
+    box-shadow: 0px 4px 9px -2px rgba(0,0,0,0.75);
+}
+
+.cabecalho > h1{
+    margin: 0px;
+    font-weight: 300;
+    font-size: 2.8rem;
+}
+
+.cabecalho > h2{
+    margin: 0px;
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+.principal{
+    grid-area: principal;
+    height: calc(100vh - 180px);
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+
+.conteudo{
+    position: inherit;
+    height: 100%;
+    overflow-y: scroll;/*Se os elementos colocados dentro dessa classe ultrapassar ele vai colcoar um scroll apenas nessa classe e não na pagina inteira*/
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.0.2);
+}
+
+
+.rodape{
+    grid-area: rodape;
+    background-color: #ffff;
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-right: 20px;
+    color: #444;
+}
+.modulos{
+   display: flex; 
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.modulo{
+  flex-basis: 30%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+ }
+
+ .modulo > h3{
+    margin: 0px;
+    color: #ffff;
+    font-weight: 300;
+    font-size: 1.5rem;
+    background-color: #038C33;
+ }
+
+ .modulo > ul{
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+ }
+
+ .modulo > ul > li{
+    font-size: 1.1rem;
+    padding: 7px;
+    cursor: pointer;
+ }
+
+ .modulo > ul > li > a{
+    display: flex;
+    text-decoration: none;
+    color: #222;
+ }
+
+ .modulo > ul > li :hover{
+    background-color: #eee;
+
+ }
+
+ .modulo.laranja1{ border: 2px solid  #ff7f32;}
+ .modulo.laranja1 > h3{ background-color:  #ff7f32;}
+
+ .modulo.laranja2{ border: 2px solid #ff8c3d;}
+ .modulo.laranja2 > h3{ background-color: #ff8c3d;}
+
+ .modulo.laranja3{ border: 2px solid #ff9948;}
+ .modulo.laranja3 > h3{ background-color: #ff9948;}
+
+ .modulo.laranja4{ border: 2px solid #ffaa53;}
+ .modulo.laranja4 > h3{ background-color: #ffaa53;}
+
+ .modulo.laranja5{ border: 2px solid #ffaa53;}
+ .modulo.laranja5 > h3{ background-color: #ffaa53;}
+
+ .modulo.laranja6{ border: 2px solid #ffc169;}
+ .modulo.laranja6 > h3{ background-color: #ffc169;}
+
+ .modulo.laranja7{ border: 2px solid #ffcc74;}
+ .modulo.laranja7> h3{ background-color: #ffcc74;}
+
+ .modulo.laranja8{ border: 2px solid #ffd47f;}
+ .modulo.laranja8 > h3{ background-color: #ffd47f;}
+
+ .modulo.laranja9{ border: 2px solid #ffe189; }
+ .modulo.laranja9 > h3{ background-color: #ffe189;}
