@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="cabecalho">
-        <h1>Curso PHP</h1>
+        <h1>Guilhrme Ferraz</h1>
         <h2>Índice de exerícios</h2>
     </header>
     <main class="principal">
