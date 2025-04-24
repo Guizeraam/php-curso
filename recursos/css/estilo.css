@@ -73,7 +73,6 @@ body {
    display: flex; 
    flex-wrap: wrap;
    justify-content: space-around;
-   justify-content: center;
 }
 
 .modulo{
@@ -84,9 +83,9 @@ body {
 
  .modulo > h3{
     margin: 0px;
-    color: #c01f1fdd;
+    color: #ffff;
     font-weight: 300;
-    font-size: 6.5rem;
+    font-size: 1.5rem;
     background-color: #038C33;
  }
 
@@ -114,7 +113,7 @@ body {
  }
 
  .modulo.laranja1{ border: 2px solid  #ff7f32;}
- .modulo.laranja1 > h3{ background-color:  #000000;}
+ .modulo.laranja1 > h3{ background-color:  #ff7f32;}
 
  .modulo.laranja2{ border: 2px solid #ff8c3d;}
  .modulo.laranja2 > h3{ background-color: #ff8c3d;}
