@@ -4,7 +4,7 @@
     // usado para printar
     echo 'olá';
     // tag <br> serve para quebrar linha
-    echo '<br> Mundo'
+    echo '<br> Mundo';
 
     //outra forma de dar um print sem utilizar o echo
 ?>
