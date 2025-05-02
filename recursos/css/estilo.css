@@ -122,8 +122,8 @@ body {
 .modulo.roxo { border: 2px solid #9C27B0; }
 .modulo.roxo > h3 { background-color: #9C27B0; }
 
-.modulo.laranja { border: 2px solid #FF9800; }
-.modulo.laranja > h3 { background-color: #FF9800; }
+.modulo.laranja { border: 2px solid #cba976; }
+.modulo.laranja > h3 { background-color: #67512f; }
 
 .modulo.verde-escuro { border: 2px solid #1B5E20; }
 .modulo.verde-escuro > h3 { background-color: #1B5E20; }
@@ -136,6 +136,10 @@ body {
 
 .modulo.roxo-escuro { border: 2px solid #4A148C; }
 .modulo.roxo-escuro > h3 { background-color: #4A148C; }
+
+
+.modulo.veverde { border: 2px solid #4bf7d5; }
+.modulo.veverde > h3 { background-color: #4bf7d5; }
 
 p.divisao {
     margin-bottom: 0px;

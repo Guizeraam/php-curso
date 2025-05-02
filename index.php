@@ -14,6 +14,16 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
+                <div class = "modulo veverde">
+                     <h3>5. Arrays</h3>
+                     <ul>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=basico">
+                                basico
+                            </a>
+                        </li>
+                     </ul>
+                </div>
                 <div class="modulo roxo">
                     <h3>4. Controle</h3>
                     <ul>
@@ -55,6 +65,11 @@
                         <li>
                             <a href="exercicio.php?dir=controle&file=desafio_switch">
                                 Desafio Switch
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=controle&file=desafio_enjoy">
+                                Desafio Enjoy
                             </a>
                         </li>
                     </ul>

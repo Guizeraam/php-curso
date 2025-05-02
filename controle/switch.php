@@ -1,7 +1,7 @@
 <div class="titulo">Switch</div>
 
 <?php
-$categoria = 'asdasdasd';
+$categoria = 'Luxo';
 $preco = 0.0;
 $carro = '';
 
@@ -22,7 +22,7 @@ if($categoria === 'Luxo') {
 $precoFormatado = number_format($preco, 2, ',', '.');
 echo "<p>Carro: $carro<br>Preço: R$ $precoFormatado</p>";
 
-$categoria = 'LUXO';
+$categoria = 'sedan';
 switch (strtolower($categoria)) {
     case 'luxo':
         $carro = 'Mercedes';
