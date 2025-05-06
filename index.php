@@ -17,9 +17,24 @@
                 <div class = "modulo veverde">
                      <h3>5. Arrays</h3>
                      <ul>
+                     <li>
+                            <a href="exercicio.php?dir=array&file=multi">
+                                Multidimensionais
+                            </a>
+                        </li>
                         <li>
                             <a href="exercicio.php?dir=array&file=basico">
                                 basico
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=mapa">
+                                Mapa
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=sorteio">
+                                Desafio sorteio
                             </a>
                         </li>
                      </ul>
